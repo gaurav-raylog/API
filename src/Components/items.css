@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-color:  aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+}
+
+.card{
+    border-radius: 15px;
+    width: 40vw;
+    height: 50vh;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    float: left;
+    justify-content: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.card-language{
+    color: navy;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-word{
+    color: rgb(2, 26, 26);
+    font-size: 20px;
+    padding: 2px 15px;
+}
+
+.card-quote{
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:720px) {
+    .card{
+        height: 40vh;
+        width: 100%;
+    }
+    .card-word{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .card{
+        margin: 30px 50px;
+    }
+}
